@@ -1,0 +1,15 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "first implementation of app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eugenio Leal",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "mysportsfeeds-node": "^1.0.0"
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Todays Matchups</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/functions.js" charset="utf-8"></script>
+    <script src="scripts/gematria.js" charset="utf-8"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="styles/style.css"> -->
+</head>
+<body>
+
+    <div class="nav-bar">
+    </div>
+    <div class="wrap-content">
+        <h1 id="currentDate"></h1>
+        <h2>Correct Prediction Percentage: <span>100%</span></h2>
+        <form action="/action_page.php" method="get">
+          <input type="checkbox" id="nfl-checkbox"><label for="nfl-checkbox"> NFL</label>
+          <input type="checkbox" id="nba-checkbox"><label for="nba-checkbox"> NBA</label>
+          <input type="checkbox" id="nhl-checkbox"><label for="nhl-checkbox"> NHL</label>
+          <input type="checkbox" id="mlb-checkbox"><label for="mlb-checkbox"> MLB</label>
+        </form>
+        <h3 style="margin-bottom: 10px">Todays Matchups:</h3>
+        <div class="simple-map-key">
+          <span style="background-color: #88ff4d; border-radius: 5px; padding: 4px 12px; margin: 5px 5px 5px 5px"></span>
+          <span>Predicted Winner</span>
+          <span style="background-color: #ff6666; border-radius: 5px; padding: 4px 12px; margin: 5px 5px 5px 5px"></span>
+          <span>Predicted Loser</span>
+        </div>
+        <div id="matchups"></div>
+    </div>
+    <script src="scripts/main.js" charset="utf-8"></script>
+</body>
+</html>
