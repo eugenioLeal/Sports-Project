@@ -235,7 +235,7 @@ function jewish(sentence) {
   return result;
 }
 
-function jewishOrdinal(sentence) {
+function jOrdinal(sentence) {
   var result = 0;
   for (var i = 0; i < sentence.length; i++) {
     if(sentence[i] === 'A' || sentence[i] === 'a') {
@@ -297,7 +297,7 @@ function jewishOrdinal(sentence) {
   return result;
 }
 
-function jewishReduced(sentence) {
+function jReduced(sentence) {
   var result = 0;
   for (var i = 0; i < sentence.length; i++) {
     if(sentence[i] === 'A' || sentence[i] === 'a' || sentence[i] === 'K' || sentence[i] === 'k' || sentence[i] === 'T' || sentence[i] === 't') {
